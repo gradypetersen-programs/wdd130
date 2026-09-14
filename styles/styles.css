@@ -1,24 +1,31 @@
+:root {
+    --theme_color: darkblue;
+    --border-specs: 1px solid black;
+    --default-shadow: 0 0 30px gray;
+    --text-color: white;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--theme_color);
     padding: 10px;
 }
 
 nav a {
-    color:white;
+    color:var(--text-color);
     display: block;
     padding: 20px;
 }
 
 h1 {
-    color: darkblue;
+    color: var(--theme_color);
 }
 
 img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border-specs);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--default-shadow);
 }
 
 p {
@@ -28,21 +35,22 @@ p {
 main {
     max-width: 840px;
 }
+
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border-specs);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: var(--default-shadow);
 }
 
 aside{
     width: 100%;
     margin: 20px 0;
-    border: 1px solid black;
+    border: var(--border-specs);
     padding: 15px;
     background-color: #234567;
-    color: white;
+    color: var(--text-color);
     text-align: center;
 }
 
@@ -53,6 +61,6 @@ aside img {
 
 footer {
     margin-top: 20px;
-    border-top: 1px solid black;
+    border-top: var(--border-specs);
     text-align: center;
 }
