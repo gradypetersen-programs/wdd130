@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* variables */
+}
+
+header {
+    background-color: rgb(67, 172, 221);
+    text-align: center;
+}
+
+header img {
+    width: 400px;
+    height: auto;
+    border: 2px solid white;
+    padding: 15px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+header nav {
+    color: white;
+    margin: 0px 15px 0px 15px;
+    padding-bottom: 25px;
+}
+
+header nav a {
+    padding: 10px 65px 10px 65px;
+    font-size: 1.125rem;
+    border: 2px solid white;
+    color: #f7941d;
+} 
+
+.hero {
+
+}
+
+div img {
+    text-align: center;
+    width: 100%;
+    height:; auto;
+}
