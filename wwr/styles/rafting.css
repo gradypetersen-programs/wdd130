@@ -9,11 +9,13 @@
 
 :root {
     --accent-color: rgb(151, 185, 236);
+    --background-color: black;
+    --margin: 15px;
 }
 
 header {
     /* background-color: rgb(67, 172, 221); */
-    background-color: black;
+    background-color: var(--background-color);
     text-align: center;
 }
 
@@ -45,6 +47,7 @@ header nav a {
     display: block;
     width: 100%;
     height: auto;
+    margin-bottom: 15px;
 }
 
 h1 {
@@ -59,13 +62,39 @@ h1 {
 }
 
 article {
+    position: absolute;
+    background-color: var(--accent-color);
+    opacity: 0.8;
+    bottom: 10px;
+    padding: 0 8px 0 0;
+}
 
+.hero article img {
+    width: 20%;
+    height: auto;
+    float: left;
+    margin: var(--margin);
+    opacity: none;
+    padding: 0;
+}
+
+article p {
+    padding: 15px;
+}
+
+section h2 {
+    text-align: center;
+}
+
+section p {
+    margin: var(--margin);
 }
 
 footer {
+    margin-top: 15px;
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: var(--background-color);
     padding: 15px 0 20px 0;
     color: white;
 
@@ -80,3 +109,4 @@ a img {
     text-align: center;
     padding-top: 15px;
 }
+
