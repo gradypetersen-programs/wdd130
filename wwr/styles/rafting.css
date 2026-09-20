@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font adornS condensed sans */
-    /* matcha mint for title */
 }
 
 @font-face {
@@ -19,6 +17,8 @@
     --margin: 15px;
     --body-font: adorn-condensed-sans, sans-serif;
     --heading-font: 'Matcha Mint', sans-serif;
+    /* font adornS condensed sans */
+    /* matcha mint for title */
 }
 
 body {
@@ -31,7 +31,6 @@ h1, h2 {
 }
 
 header {
-    /* background-color: rgb(67, 172, 221); */
     background-color: var(--background-color);
     text-align: center;
     margin: 0;
@@ -40,7 +39,6 @@ header {
 header img {
     width: 400px;
     height: auto;
-    /* border: 2px solid white; */
     padding: 15px;
     margin-bottom: 25px;
     margin-top: 18px;
