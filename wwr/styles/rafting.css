@@ -36,7 +36,8 @@ header nav a {
     padding: 10px 65px 10px 65px;
     font-size: 1.125rem;
     border: 2px solid white;
-    color: #00A79D;
+    color: white;
+    text-decoration: none;
 } 
 
 .hero {
@@ -61,18 +62,18 @@ h1 {
     border:2px solid #fff;    
 }
 
-article {
+.hero article {
     position: absolute;
     background-color: var(--accent-color);
     opacity: 0.8;
     bottom: 10px;
-    padding: 0 8px 0 0;
+    padding: 0 0 0 8px;
 }
 
 .hero article img {
     width: 20%;
     height: auto;
-    float: left;
+    float: right;
     margin: var(--margin);
     opacity: none;
     padding: 0;
@@ -97,10 +98,10 @@ footer {
     background-color: var(--background-color);
     padding: 15px 0 20px 0;
     color: white;
-
+    text-decoration: none;
 }
 
-a {
+.socialmedia a {
     padding: 4%;
 }
 
