@@ -2,21 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "adornS-condensed", sans;
     /* font adornS condensed sans */
     /* matcha mint for title */
+}
+
+@font-face {
+    font-family: 'Matcha Mint';
+    src: url('../fonts/matcha-mint.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 :root {
     --accent-color: rgb(151, 185, 236);
     --background-color: black;
     --margin: 15px;
+    --body-font: adorn-condensed-sans, sans-serif;
+    --heading-font: 'Matcha Mint', sans-serif;
+}
+
+body {
+    font-family: var(--body-font);
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color)
 }
 
 header {
     /* background-color: rgb(67, 172, 221); */
     background-color: var(--background-color);
     text-align: center;
+    margin: 0;
 }
 
 header img {
@@ -29,7 +47,7 @@ header img {
 }
 
 header nav {
-    padding-bottom: 25px;
+    padding-bottom: 32px;
 }
 
 header nav a {
@@ -97,15 +115,16 @@ footer {
     background-color: var(--background-color);
     padding: 15px 0 20px 0;
     color: white;
-    text-decoration: none;
 }
 
 .socialmedia a {
     padding: 4%;
+    text-decoration: none;
 }
 
 a img {
     width: 100px; 
+    height: auto;
     text-align: center;
     padding-top: 15px;
 }
