@@ -65,7 +65,9 @@ article {
 footer {
     width: 100%;
     text-align: center;
-    margin: 15px;
+    background-color: black;
+    padding: 15px 0 20px 0;
+    color: white;
 
 }
 
