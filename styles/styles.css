@@ -11,22 +11,6 @@
     --text-color: white;
 }
 
-nav {
-    background-color: var(--theme_color);
-    padding: 10px;
-}
-
-nav a {
-    color:var(--text-color);
-    display: block;
-    padding: 20px;
-}
-
-h1 {
-    color: var(--theme_color);
-    padding: 5px; /**/
-}
-
 img {
     width: 150px;
     height: auto;
@@ -39,9 +23,46 @@ p {
     padding: 0;
 }
 
+header, footer, .grid{
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav {
+    background-color: var(--theme_color);
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.5rem;
+}
+
+nav a {
+    color:var(--text-color);
+    display: block;
+    padding: 10px 60px 10px 60px;
+    border: 2px solid white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 510;
+}
+
+h1 {
+    color: var(--theme_color);
+    padding: 5px; /**/
+    border-bottom: 3px solid gray;
+    margin-bottom: 1rem;
+}
 main {
     max-width: 840px;
     padding-left: 1rem;
+    grid-column-start: 2;
+    grid-column-end: span 2;
+    
 }
 
 main img {
@@ -52,6 +73,7 @@ main img {
     box-shadow: var(--default-shadow);
     float: right;
     margin: 0 0 1rem 1rem;
+
 }
 
 ul li a{
@@ -60,14 +82,9 @@ ul li a{
 }
 
 aside{
-    width: 100%;
-    /* margin: 20px 0;
-    border: var(--border-specs);
-    padding: 15px;
-    background-color: #234567;
-    color: var(--text-color); */
     text-align: center;
     position: relative;
+    order: -1;
 }
 
 aside img {
@@ -77,8 +94,8 @@ aside img {
 
 aside h2 {
     position: absolute;
-    top: 25px;
-    left: 380px;
+    top: 23px;
+    left: 92px;
 }
 
 footer {
@@ -89,7 +106,8 @@ footer {
 
 /* Class Selectors */
 .box{
-    margin: 1rem;
+    margin: 0 auto;
+    margin-top: 1rem;
     border: var(--border-specs);
     padding: 1rem;
     color: var(--text-color);
