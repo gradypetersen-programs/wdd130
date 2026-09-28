@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 User Poll Practice</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <h1>WDD130 User Poll Activity</h1>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <div class="form-item column2">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item column2">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="useremail" id="useremail" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column1">
+                    <label for="favoritebrowser">Favorite Browser </label>
+                    <select name="favoritebrowser" id="favoritebrowser">
+                        <option value="1"> Safari</option>
+                        <option value="2"> Brave</option>
+                        <option value="3"> Chrome</option>
+                        <option value="4"> Edge</option>
+                        <option value="5"> Other</option>
+                    </select>
+                </div>
+                <div class="form-item column1">
+                    <label class="checkbox" for="pet"> <input type="checkbox" id="pet" name="pet">Do you have a household pet?</label>
+                        <!-- The implicit label method is used above--combines input and label lines into one -->
+                </div>
+                <div class="form-item feedback">
+                    <label for="feedback">List the places you have lived.</label>
+                    <textarea name="feedback" id="feedback" placeholder="Houston, Texas" rows="4"></textarea>
+                </div>
+                </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+</body>
+<footer> 
+    <p>&copy2026 | HTML-User Poll | Grady Petersen</p>
+</footer>
+</html>

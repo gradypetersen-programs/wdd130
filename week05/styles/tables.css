@@ -1,0 +1,30 @@
+*{
+    padding: .25rem .75rem;
+    text-align: center;
+}
+
+caption, table {
+    border: 1px solid rgb(184, 178, 178);
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    font-size: 1.125rem;
+}
+
+.row-title {
+    font-weight: 505;
+}
+
+tfoot {
+    background-color: black;
+    color: white;
+    font-weight: 800;
+}
+
+.grey-row {
+    background-color: rgb(220, 220, 220);
+}
