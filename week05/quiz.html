@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML and CSS Basics Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <main>
+        <h1>HTML and CSS Basics Quiz</h1>
+        <form>
+            <fieldset>
+                <legend>HTML Basics</legend>
+                <label for="q1" sp><span class="question-number">1.</span> What is the type of input used in HTML to toggle on or off options?</label> <!--text-->
+                <input type="text" name="q1" id="q1" placeholder="Enter your answer:">
+
+                <label for="q2"><span class="question-number">2.</span> When creating layouts for your webpages, explain why using tables is not the best option.</label> <!--textarea-->
+                <textarea name="q2" id="q2" rows="3" placeholder="Enter your answer:"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>CSS Basics</legend>
+                <label for="q3"></label><span class="question-number">3.</span> Select the name of the type of input displayed here:<!--dropdown or combobox-->
+                <select name="q3" id="q3">
+                    <option value="1">Radio Button</option>
+                    <option value="2">Button</option>
+                    <option value="3">Password</option>
+                    <option value="4">textarea</option>
+                    <option value="5">input</option>
+                    <option value="6">dropdown</option>
+                </select>
+                <label for="q4"><span class="question-number">4.</span> If the window is displayed in half view and the full screen width is 1024 pixels, what is the width of the window now?</label> <!--integer answer-->
+                <input type="number" name="q4" id="q4" placeholder="Enter a number:">
+
+                <!-- combobox -->
+                <label for="q5"><span class="question-number">5.</span> What is your favorite named color choice available through css?</label>
+                <input list="colors" id="q5" name="q5" placeholder="none selected">
+
+                <datalist id="colors">
+                    <option value="gainsboro"></option>
+                    <option value="blue"></option>
+                    <option value="orange"></option>
+                    <option value="darkslategray"></option>
+                    <option value="darkslategrey"></option>
+                    <option value="darkolivegreen"></option>
+                </datalist>
+
+                <!-- radioswitch -->
+                <div class="radioswitch">
+                    <label for="radioswitch"><span class="question-number">6.</span> Fun Switch–Switch to On to Have Fun:</label>
+                    <div class="radio-option1">
+                        <input type="radio" id="" name="radioswitch" value="on" checked>
+                        <label for="option-on">Fun</label>
+                    </div>
+                    <div class="radio-option2">
+                        <input type="radio" id="option-off" name="radioswitch" value="off">
+                        <label for="option-off">no fun</label>
+                    </div>
+                </div>
+            </fieldset>
+            <button type="submit">Submit Quiz</button>
+        </form>
+    </main>
+</body>
+</html>
+
+<!-- text, textarea, checkbox, dropdown, radio switches -->
