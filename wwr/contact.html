@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="White Water Rafting Company page. Provides a form to provide contact information to users and to write feedback and other messages. Also provides the opportunity to subscribe to our monthly newsletter.">
+    <meta name="author" content="Grady Petersen">
+    <title>Contact Us — White Water Rafting Company</title>
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+<body>
+    <header>
+        <img src="images/whitewater-logo.png" alt="White Water Rafting Company Logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+
+    </header>
+    <main>
+        <div class="contact-info">
+            <h1>White Water Rafting Company</h1>
+            <h3>123 Cowel St</h3>
+            <h3>Watertown NY, 13601</h3>
+            <h3>+1 123 456 7890</h3>
+            <h3>sample-email@email.com</h3>
+        </div>
+        <section class="content">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3588.654765985147!2d-75.9186440135333!3d43.981625100088415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d871584db83805%3A0xb1747af3b04dd488!2sWhitewater%20Park!5e1!3m2!1sen!2sus!4v1791075056780!5m2!1sen!2sus" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+            </iframe>
+            <form>
+                <fieldset>
+                    <legend>Contact Us!</legend>
+                </fieldset>
+                <fieldset class="message-info">
+                    <div class="name-query">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" requried>
+                    </div>
+                    <div class="email-query">
+                        <label for="email">Email:</label>
+                        <input type="text" id="email" name="name" placeholder="email@email.com" required>
+                    </div>
+                    <div class="message-purpose-query">
+                        <label for="message-purpose">Message Purpose:</label>
+                        <div class="radio-options">
+                            <div class="radio-row">
+                                <input type="radio" id="radioswitch1" name="radioswitch" checked>
+                                <label for="radioswitch">General Questions</label>
+                            </div>
+                            <div class="radio-row">
+                                <input type="radio" id="radioswitch2" name="radioswitch">
+                                <label for="radioswitch">Reservations</label>
+                            </div>
+                            <div class="radio-row">
+                                <input type="radio" id="radioswitch3" name="radioswitch">
+                                <label for="radioswitch">Website Suggestions</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user-message">
+                        <label for="message">Your Message:</label>
+                        <textarea name="message" id="message" rows="3" placeholder="Enter Your Message Here!"></textarea>
+                    </div>
+                    <div class="newsletter-query">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter:</label> 
+                        <input type="checkbox" id="newsletter" name="newsletter" required>
+                    </div>
+                </fieldset>
+                <button type="submit">Send Message!</button>
+            </form>
+        </section>
+
+        <section class="employee-info">
+            <h2>Our Crew</h2>
+            <div class="employee-images">
+                <figure>
+                    <img src="images/employee1.jpg" alt="Zach McHowden">
+                    <figcaption>
+                            <h4>Zach McHowden</h4>
+                            <p>Rafting Guide</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee2.jpg" alt="Hannah Newburg">
+                    <figcaption>
+                        <h4>Hannah Newburg</h4>
+                        <p>Trip Coordinator</p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <img src="images/employee3.jpg" alt="Micheal King">
+                    <figcaption>
+                        <h4>Micheal King</h4>
+                        <p>Safety Coordinator</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026, White Water Rafting Company, Grady Petersen</p>
+        <nav class="socialmedia">
+            <a href="https://www.facebook.com"><img src="images/facebook-logo.png" alt="Facebook"></a>
+            <a href="https://www.instagram.com"><img src="images/instagram-logo.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com"><img src="images/youtube-logo.png" alt="YouTube"></a>
+        </nav>
+    </footer>
+</body>
+</html>
