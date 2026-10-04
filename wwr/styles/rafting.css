@@ -29,11 +29,6 @@ body {
     font-family: var(--body-font);
 }
 
-h1, h2 {
-    font-family: var(--heading-font);
-    color: var(--black-text)
-}
-
 /* header */
 header {
     background-color: var(--background-color);
@@ -71,6 +66,7 @@ header nav a {
 } 
 
 h1, h2{
+    font-family: var(--heading-font);
     color: var(--black-text);
     width: 100%;
     text-align: center;
@@ -79,6 +75,11 @@ h1, h2{
     padding: 8px 0;  
 }
 
+.contact-info h2 {
+    background-color: white;
+    font-size: 1.125rem;
+    font-family: sans-serif;
+}
 section h2 {
     text-align: center;
     margin: 15px 0 15px 0;
