@@ -111,6 +111,10 @@ header nav a {
     width: 100%;
 }
 
+.about-us .article-title {
+    font-weight: 600;
+}
+
 .about-us .hero article {
     opacity: 0.8;
     padding: 0 0 0 8px;
@@ -432,6 +436,10 @@ button:hover {
     color: var(--white-text);
     text-decoration: none;
     background-color: var(--black-text);
+}
+
+.trips h1 {
+    margin: 10px 0;
 }
 
 .trips #trips-contact p {
