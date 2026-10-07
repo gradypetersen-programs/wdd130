@@ -510,4 +510,5 @@ button:hover {
 .trips td.name {
     min-width: 15%;
     text-wrap: nowrap;
+    font-weight: 600;
 }
