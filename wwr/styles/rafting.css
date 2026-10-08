@@ -32,6 +32,11 @@ body {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--black-text);
+    width: 100%;
+    text-align: center;
+    background-color: var(--accent-color);
+    border:2px solid var(--gray-accent);  
+    padding: 8px 0; 
 }
 
 /* header */
@@ -196,20 +201,11 @@ footer {
     padding: 0 5px 0 5px;
 }
 
-h1, h2{
-    font-family: var(--heading-font);
-    color: var(--black-text);
-    width: 100%;
-    text-align: center;
-    background-color: var(--accent-color);
-    border:2px solid var(--gray-accent);  
-    padding: 8px 0;  
-}
-
 .contact-us .contact-info h2 {
     background-color: white;
     font-size: 1.125rem;
     font-family: sans-serif;
+    border: 0;
 }
 
 .contact-us .contact-info {
@@ -228,10 +224,6 @@ h1, h2{
 
 .contact-us .content {
     display: flex;
-}
-
-.contact-us .contact-info h2 {
-    border: 0px;
 }
 
 form{
@@ -483,7 +475,6 @@ button:hover {
 
 .trips #trip-information {
     width: 90%;
-    margin: 10px;
     text-align: center;
     border: 2px solid var(--gray-accent);
     margin: 0 auto;
